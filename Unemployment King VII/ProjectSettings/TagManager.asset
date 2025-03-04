@@ -16,8 +16,8 @@ TagManager:
   - Wall
   - Roof
   - Background
-  - 
-  - 
+  - Obstacle
+  - Props
   - 
   - 
   - 
@@ -50,6 +50,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2874714059
+    locked: 0
+  - name: Enemy
+    uniqueID: 91942409
     locked: 0
   - name: Ground
     uniqueID: 4051993763
