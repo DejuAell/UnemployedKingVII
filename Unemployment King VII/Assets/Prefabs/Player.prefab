@@ -390,12 +390,12 @@ MonoBehaviour:
   jumpPower: 18
   airControlFactor: 1.2
   coyoteTime: 12
-  extraJumps: 1
+  extraJumps: 0
   wallJumpX: 20
   wallJumpY: 20
-  wallGravityScale: 1
+  wallGravityScale: 7
   normalGravityScale: 7
-  wallSlideSpeed: 0.5
+  wallSlideSpeed: 1
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
