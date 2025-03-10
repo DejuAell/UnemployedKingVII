@@ -89962,6 +89962,10 @@ PrefabInstance:
       propertyPath: wallGravityScale
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6789677361982385171, guid: 487b0f900732a3b4992d2a5f1bb2baa9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7385789195546760866, guid: 0e3502a80399d164ea01f1868f65acbf, type: 3}
     - target: {fileID: 6789677361982385172, guid: 487b0f900732a3b4992d2a5f1bb2baa9, type: 3}
       propertyPath: m_Name
       value: Player

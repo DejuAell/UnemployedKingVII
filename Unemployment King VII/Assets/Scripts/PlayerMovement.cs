@@ -34,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D boxCollider;
     private float wallJumpCooldown;
     private float horizontalInput;
+    
 
     private void Awake()
     {
@@ -61,8 +62,8 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space)) Jump();
 
         // Adjust jump height when the jump button is released early
-        if (Input.GetKeyUp(KeyCode.Space) && body.velocity.y > 0)
-            body.velocity = new Vector2(body.velocity.x, body.velocity.y / 2);
+        //if (Input.GetKeyUp(KeyCode.Space) && body.velocity.y > 0)
+        //    body.velocity = new Vector2(body.velocity.x, body.velocity.y / 2);
 
         // Check if the player is on a wall
         if (onWall())
@@ -98,12 +99,22 @@ public class PlayerMovement : MonoBehaviour
             {
                 coyoteCounter = coyoteTime; // Reset coyote time when grounded
                 jumpCounter = extraJumps;   // Reset extra jumps
+               // anim.SetBool("Jump", false);
+
             }
             else
             {
                 coyoteCounter -= Time.deltaTime; // Decrease coyote time when in air
             }
+
+            if (!isGrounded())
+            {
+                anim.SetTrigger("jump");
+            }
         }
+        
+
+        anim.SetFloat("yVelocity", body.velocity.y);
     }
 
     private void Jump()
@@ -119,7 +130,8 @@ public class PlayerMovement : MonoBehaviour
                 if (isGrounded())  // Regular ground jump
                 {
                     body.velocity = new Vector2(body.velocity.x, jumpPower);
-                    anim.SetTrigger("jump");
+                    
+                    
                 }
                 else if (coyoteCounter > 0)  // Jump if coyote time is still valid
                 {
@@ -130,6 +142,7 @@ public class PlayerMovement : MonoBehaviour
                     body.velocity = new Vector2(body.velocity.x, jumpPower);
                     jumpCounter--;  // Decrease jump counter
                 }
+                
             }
 
             // Reset coyote counter to prevent double jumping
@@ -147,9 +160,11 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isGrounded()
     {
+        
         // Use boxcast to check for collision with the ground layer
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
         return raycastHit.collider != null;
+    
     }
 
     private bool onWall()
