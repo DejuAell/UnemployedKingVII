@@ -2534,3 +2534,43 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/Animations/Player.controller using Guid(47db695d82c86ad41a33a28bb5bad569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d6a1c388818b778bce8b8187d1c6a0') in 0.021985 seconds 
 Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 58.352451 seconds.
+  path: Assets/Animations/Player.controller
+  artifactKey: Guid(47db695d82c86ad41a33a28bb5bad569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animations/Player.controller using Guid(47db695d82c86ad41a33a28bb5bad569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514caaa842afef9a4d919d2d8d524287') in 0.005470 seconds 
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 74.541695 seconds.
+  path: Assets/Scripts/transition1Script.cs
+  artifactKey: Guid(aebc3f868bb350d4391a3c2b7099ab33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/transition1Script.cs using Guid(aebc3f868bb350d4391a3c2b7099ab33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cd27b3dba5fd72d9417ba552163246') in 0.013536 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.622231 seconds.
+  path: Assets/Scripts/transition2Script.cs
+  artifactKey: Guid(189f14e72dc114540bd1c2f3600b519f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/transition2Script.cs using Guid(189f14e72dc114540bd1c2f3600b519f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a8bcfe6ceaec361043f9a48236952d') in 0.009476 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.251262 seconds.
+  path: Assets/Scripts/idleScript.cs
+  artifactKey: Guid(2a0599a0acffbce48b539c1900b51c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/idleScript.cs using Guid(2a0599a0acffbce48b539c1900b51c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ec22d37d80887dab3740572294c75f') in 0.010019 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.311296 seconds.
+  path: Assets/Scripts/AttackSystem.cs
+  artifactKey: Guid(7d8a916d98f36c041a2ba8cefccd635f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/AttackSystem.cs using Guid(7d8a916d98f36c041a2ba8cefccd635f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b791a45a1ea5774b99e26c909da6eb33') in 0.008437 seconds 
+Number of asset objects unloaded after import = 0
