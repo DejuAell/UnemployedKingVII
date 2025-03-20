@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Teleporter
+  - Player1
   layers:
   - Default
   - TransparentFX
@@ -19,8 +20,8 @@ TagManager:
   - Background
   - Obstacle
   - Props
-  - 
-  - 
+  - Enemy
+  - Player
   - 
   - 
   - 
