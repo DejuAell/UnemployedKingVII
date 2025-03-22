@@ -7,7 +7,7 @@ public class SpikesDamage : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.gameObject.tag == "Player1")
         {
             collision.GetComponent<Health>().TakeDamage(damage);
         }

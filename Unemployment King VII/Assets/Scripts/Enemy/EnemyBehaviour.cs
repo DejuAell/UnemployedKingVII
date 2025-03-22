@@ -20,7 +20,7 @@ public class EnemyBehaviour : MonoBehaviour
     private Animator anim;
     private float distance;
     private bool attackMode;
-    private bool cooling;
+    public bool cooling;
     private float intTimer;
     #endregion
 

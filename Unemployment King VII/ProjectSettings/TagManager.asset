@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Teleporter
   - Player1
+  - enemy
   layers:
   - Default
   - TransparentFX
