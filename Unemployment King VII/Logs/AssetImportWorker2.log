@@ -15,7 +15,7 @@ C:/Users/bon50111310/Documents/GitHub/UnemployedKingVII/Unemployment King VII
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-51496
+53433
 Successfully changed project path to: C:/Users/bon50111310/Documents/GitHub/UnemployedKingVII/Unemployment King VII
 C:/Users/bon50111310/Documents/GitHub/UnemployedKingVII/Unemployment King VII
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/bon50111310/Documents/GitHub/UnemployedKingVII/Unemployment King VII
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18548] Host "[IP] 192.168.123.63 [Port] 0 [Flags] 2 [Guid] 1061501143 [EditorId] 1061501143 [Version] 1048832 [Id] WindowsEditor(7,e2-pc14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23384] Host "[IP] 192.168.123.63 [Port] 0 [Flags] 2 [Guid] 3271045947 [EditorId] 3271045947 [Version] 1048832 [Id] WindowsEditor(7,e2-pc14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18548] Host "[IP] 192.168.123.63 [Port] 0 [Flags] 2 [Guid] 1061501143 [EditorId] 1061501143 [Version] 1048832 [Id] WindowsEditor(7,e2-pc14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23384] Host "[IP] 192.168.123.63 [Port] 0 [Flags] 2 [Guid] 3271045947 [EditorId] 3271045947 [Version] 1048832 [Id] WindowsEditor(7,e2-pc14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 130.70 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 133.07 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.36f1 (7a0645017be0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Resources/UnitySubsystems
@@ -68,7 +68,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -79,7 +79,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.008614 seconds.
+Registered in 0.008828 seconds.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -90,42 +90,42 @@ Native extension for AppleTV target not found
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 169 ms
+Android Extension - Scanning For ADB Devices 177 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 125.40 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 127.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.888 seconds
+- Completed reload, in  0.909 seconds
 Domain Reload Profiling:
-	ReloadAssembly (889ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (909ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (718ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (736ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (100ms)
+			SetupTypeCache (102ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (553ms)
+			SetupLoadedEditorAssemblies (569ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (310ms)
+				InitializePlatformSupportModulesInManaged (322ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (125ms)
+				RefreshPlugins (128ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006363 seconds.
+Registered in 0.006639 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
@@ -135,35 +135,35 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 128.24 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 130.78 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.641 seconds
+- Completed reload, in  1.666 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1642ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (1667ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1434ms)
-			LoadAssemblies (96ms)
+		EndReloadAssembly (1456ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (259ms)
+			SetupTypeCache (265ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (977ms)
+			SetupLoadedEditorAssemblies (989ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (33ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (128ms)
+				RefreshPlugins (131ms)
 				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (608ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
+				ProcessInitializeOnLoadAttributes (601ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -172,12 +172,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.29 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5653 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (0.8 MB). Loaded Objects now: 6107.
-Memory consumption went from 236.9 MB to 236.2 MB.
-Total: 5.150000 ms (FindLiveObjects: 0.471000 ms CreateObjectMapping: 0.469900 ms MarkObjects: 3.751200 ms  DeleteObjects: 0.456800 ms)
+Unloading 55 unused Assets / (0.8 MB). Loaded Objects now: 6108.
+Memory consumption went from 236.9 MB to 236.1 MB.
+Total: 3.880400 ms (FindLiveObjects: 0.440000 ms CreateObjectMapping: 0.455200 ms MarkObjects: 2.664000 ms  DeleteObjects: 0.320400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -194,73 +194,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 13831.053944 seconds.
-  path: Assets/Prefabs/Projectiles
-  artifactKey: Guid(5e9a3e92b32b5c940a34adf890c1820d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 27617.963876 seconds.
+  path: Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/YELLOW/Sprites/Round Potion - YELLOW - 0000.png
+  artifactKey: Guid(69ec286fa8b64af46bd508ccc45e2f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Projectiles using Guid(5e9a3e92b32b5c940a34adf890c1820d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd522d321fed57b2b0b4133ab2cde65d') in 0.016724 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/YELLOW/Sprites/Round Potion - YELLOW - 0000.png using Guid(69ec286fa8b64af46bd508ccc45e2f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3bcab3e0a7eb091e53339a9231a365') in 0.091577 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 7.741989 seconds.
-  path: Assets/Prefabs/Obstacles
-  artifactKey: Guid(361b1da7a3a1d9646b01fab40c4ac912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/YELLOW/Sprites/Round Potion - YELLOW - 0004.png
+  artifactKey: Guid(698456ae328abbc40b6d9bc29b42784e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Obstacles using Guid(361b1da7a3a1d9646b01fab40c4ac912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227339d9c8d59c48b213576fd3840e62') in 0.007498 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/YELLOW/Sprites/Round Potion - YELLOW - 0004.png using Guid(698456ae328abbc40b6d9bc29b42784e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96609eb42055b6a2d630cf0cea4e2d15') in 0.022325 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 15.849203 seconds.
-  path: Assets/Prefabs/HealthPotions
-  artifactKey: Guid(de8545f3125706749baf65e802a1e7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/YELLOW/Sprites/Round Potion - YELLOW - 0010.png
+  artifactKey: Guid(036ebf6df2117514cb54e84ed4859bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/HealthPotions using Guid(de8545f3125706749baf65e802a1e7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15abf4559bd679f37731d7cbf20d770d') in 0.007552 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/YELLOW/Sprites/Round Potion - YELLOW - 0010.png using Guid(036ebf6df2117514cb54e84ed4859bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871f70fbfc27a8b60651100b519d0deb') in 0.016885 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 40.827478 seconds.
-  path: Assets/Prefabs/HealthPotions/HealthPotions.prefab
-  artifactKey: Guid(512a8a7798332354f91b65e6fb90d42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/YELLOW/Sprites/Round Potion - YELLOW - 0009.png
+  artifactKey: Guid(26744ec171f99424495db3ad7651b5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/HealthPotions/HealthPotions.prefab using Guid(512a8a7798332354f91b65e6fb90d42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bd6fbb2eda8f75622add8b180418ab') in 0.179987 seconds 
-Number of asset objects unloaded after import = 35
+Start importing Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/YELLOW/Sprites/Round Potion - YELLOW - 0009.png using Guid(26744ec171f99424495db3ad7651b5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e78dfd153fce380d4f55eeeb2fd93f6') in 0.014190 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 16.396283 seconds.
-  path: Assets/Prefabs/Obstacles/Obstacle (Platforms).prefab
-  artifactKey: Guid(e7f83c86a5652b449984f9af515f15be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 5.135588 seconds.
+  path: Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/RED/Sprites/Round Potion - RED - 0007.png
+  artifactKey: Guid(018972651e4c67148a88a1d3d7d4d510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Obstacles/Obstacle (Platforms).prefab using Guid(e7f83c86a5652b449984f9af515f15be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9710a64d92d9a39db0ae8b573df0104e') in 0.026344 seconds 
-Number of asset objects unloaded after import = 17
+Start importing Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/RED/Sprites/Round Potion - RED - 0007.png using Guid(018972651e4c67148a88a1d3d7d4d510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27cdaede6b10916dd8bd2c8fbc5a3a40') in 0.023848 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prefabs/Obstacles/Obstacle.prefab
-  artifactKey: Guid(f4a11739f0c82bb4a8983df0456fc1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/RED/Round Potion - RED - Spritesheet.png
+  artifactKey: Guid(ccbfc969f39296043a0b9af1800fc9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Obstacles/Obstacle.prefab using Guid(f4a11739f0c82bb4a8983df0456fc1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d51f73fabc1de683bf408b98cb39951') in 0.018862 seconds 
-Number of asset objects unloaded after import = 20
+Start importing Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/RED/Round Potion - RED - Spritesheet.png using Guid(ccbfc969f39296043a0b9af1800fc9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660629cd93f667255130b65173e90271') in 0.027627 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 181.543867 seconds.
-  path: Assets/Scripts/Health
-  artifactKey: Guid(2a1ed9e5f6728a7419f4a771109bedbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/RED/Sprites/Round Potion - RED - 0010.png
+  artifactKey: Guid(8bf25b38190aac14c8341664ca9ae468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/Health using Guid(2a1ed9e5f6728a7419f4a771109bedbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3da6d37558b7fc0709eb16d7dcecf8') in 0.009753 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/RED/Sprites/Round Potion - RED - 0010.png using Guid(8bf25b38190aac14c8341664ca9ae468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651ccfcfdeb865fb4a826e3d01058104') in 0.022232 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.836625 seconds.
-  path: Assets/Scripts/Health/Health.cs
-  artifactKey: Guid(1bb6313b31b93db4895072b1d9d56c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 10.874549 seconds.
+  path: Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/PURPLE/Sprites/Round Potion - PURPLE - 0003.png
+  artifactKey: Guid(b19fb926665b4b54db6015beb6e7a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/Health/Health.cs using Guid(1bb6313b31b93db4895072b1d9d56c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e529bf12b458c58249f8c2402cff65') in 0.003879 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/PURPLE/Sprites/Round Potion - PURPLE - 0003.png using Guid(b19fb926665b4b54db6015beb6e7a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04db210af985e0df553284f9b463f8b7') in 0.021854 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 352.727815 seconds.
-  path: Assets/Scripts/Health/Health.cs
-  artifactKey: Guid(1bb6313b31b93db4895072b1d9d56c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/PURPLE/Sprites/Round Potion - PURPLE - 0006.png
+  artifactKey: Guid(e91d7c918ce66c24796a5b8d32280287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/Health/Health.cs using Guid(1bb6313b31b93db4895072b1d9d56c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61be73c9ed0ffc1b3a7f0f79e60f549b') in 0.022689 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/PURPLE/Sprites/Round Potion - PURPLE - 0006.png using Guid(e91d7c918ce66c24796a5b8d32280287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffbb33ef9d09de2086d7d9aa9b02ff0') in 0.023348 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/PURPLE/Sprites/Round Potion - PURPLE - 0009.png
+  artifactKey: Guid(0f37b633f40693d4582cd23e3f9fbdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/PURPLE/Sprites/Round Potion - PURPLE - 0009.png using Guid(0f37b633f40693d4582cd23e3f9fbdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed0fbbfbb7c1560477c5c1612a9e8a7') in 0.017212 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/PURPLE/Sprites/Round Potion - PURPLE - 0010.png
+  artifactKey: Guid(6f97fc0ac51a29c4e8d13bebff8a0f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/PURPLE/Sprites/Round Potion - PURPLE - 0010.png using Guid(6f97fc0ac51a29c4e8d13bebff8a0f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da891c7cd56ceb2cc45908afd041959d') in 0.021796 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 10.082679 seconds.
+  path: Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/TURQUOISE/Sprites/Round Potion - TURQUOISE - 0000.png
+  artifactKey: Guid(3a81083baa728f144b860e42fe63e488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/TURQUOISE/Sprites/Round Potion - TURQUOISE - 0000.png using Guid(3a81083baa728f144b860e42fe63e488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063852817a62e1e1d3fc154ea46b438b') in 0.016740 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/TURQUOISE/Sprites/Round Potion - TURQUOISE - 0003.png
+  artifactKey: Guid(f62d742a8b7ca254187b9ef45fa4b927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/TURQUOISE/Sprites/Round Potion - TURQUOISE - 0003.png using Guid(f62d742a8b7ca254187b9ef45fa4b927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b4b3df6a2d5644c395405a9f072d56') in 0.015889 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/TURQUOISE/Sprites/Round Potion - TURQUOISE - 0006.png
+  artifactKey: Guid(2813ecdbf1ac3914c9dfa522b117e6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/TURQUOISE/Sprites/Round Potion - TURQUOISE - 0006.png using Guid(2813ecdbf1ac3914c9dfa522b117e6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082a5e2451200dec0bcd8a8620cc7d02') in 0.014212 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 33.609535 seconds.
+  path: Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/TURQUOISE/Sprites/Round Potion - TURQUOISE - 0007.png
+  artifactKey: Guid(ba259591f124e054c80ddd639ed135b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/TURQUOISE/Sprites/Round Potion - TURQUOISE - 0007.png using Guid(ba259591f124e054c80ddd639ed135b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaaaa8df5cfc03dc960699d94b042b6c') in 0.022302 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/TURQUOISE/Sprites/Round Potion - TURQUOISE - 0012.png
+  artifactKey: Guid(ad8c1d37b68ce714b99baec442099500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Potion and Animations Sprites/Pixel Potion Pack - Animated/Sprites/Round Potion/TURQUOISE/Sprites/Round Potion - TURQUOISE - 0012.png using Guid(ad8c1d37b68ce714b99baec442099500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4b746770a5b765f697d9fdea8d1f5d') in 0.014666 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
