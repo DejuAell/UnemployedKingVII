@@ -10,7 +10,7 @@ public class EnemyHit3 : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player1")
         {
-            if (enemyBehaviour.cooling == false)
+            if (enemyBehaviour.cooling3 == false)
             {
                 collision.GetComponent<Health>().TakeDamage(damage);
                 

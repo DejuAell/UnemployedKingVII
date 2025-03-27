@@ -9,16 +9,18 @@ public class Health : MonoBehaviour
     public float currentHealth; //{ get; private set; }
     private Animator anim;
     private bool dead;
+    private Rigidbody2D rb;
 
     private void Awake()
     {
         currentHealth = startingHealth;
         anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     public void TakeDamage(float _damage)
     {
-        currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
+       currentHealth = Mathf.Clamp(currentHealth - (_damage * startingHealth), 0, startingHealth);
         
         if (currentHealth > 0)
         {
@@ -32,6 +34,9 @@ public class Health : MonoBehaviour
             {
             anim.SetTrigger("Die");
             GetComponent<PlayerMovement>().enabled = false;
+            rb.velocity = Vector2.zero;
+            rb.constraints = RigidbodyConstraints2D.FreezeAll;
+
             dead = true;
             }
            
@@ -44,6 +49,6 @@ public class Health : MonoBehaviour
     }
     public void AddHealth(float _value)
     {
-    currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
+    currentHealth = Mathf.Clamp(currentHealth + (_value * startingHealth), 0, startingHealth);
     }
 }

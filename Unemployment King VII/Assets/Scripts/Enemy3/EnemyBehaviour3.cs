@@ -20,7 +20,7 @@ public class EnemyBehaviour3 : MonoBehaviour
     private Animator anim;
     private float distance;
     private bool attackMode;
-    public bool cooling;
+    public bool cooling3;
     private float intTimer;
     #endregion
 
@@ -59,12 +59,12 @@ public class EnemyBehaviour3 : MonoBehaviour
         {
             StopAttack();
         }
-        else if (attackDistance >= distance && cooling == false)
+        else if (attackDistance >= distance && cooling3 == false)
         {
             Attack();
         }
 
-        if (cooling)
+        if (cooling3)
         {
             Cooldown();
             anim.SetBool("Attack", false);
@@ -97,16 +97,16 @@ public class EnemyBehaviour3 : MonoBehaviour
     {
         timer -= Time.deltaTime;
 
-        if(timer <= 0 && cooling && attackMode)
+        if(timer <= 0 && cooling3 && attackMode)
         {
-            cooling = false;
+            cooling3 = false;
             timer = intTimer;
         }
     }
 
     void StopAttack()
     {
-        cooling = false;
+        cooling3 = false;
         attackMode = false;
         anim.SetBool("Attack", false);
     }
@@ -115,7 +115,7 @@ public class EnemyBehaviour3 : MonoBehaviour
 
     public void TriggerCooling()
     {
-        cooling = true;
+        cooling3 = true;
     }
 
     private bool InsideOfLimits()
