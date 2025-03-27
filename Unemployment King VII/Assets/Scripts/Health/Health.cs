@@ -5,16 +5,23 @@ using UnityEngine;
 public class Health : MonoBehaviour
 
 {
+    [Header ("Health")]
     [SerializeField] private float startingHealth;
     public float currentHealth; //{ get; private set; }
     private Animator anim;
     private bool dead;
     private Rigidbody2D rb;
 
+    [Header("iFrames")]
+    [SerializeField] private float iFramesDuration;
+    [SerializeField] private int numberOfFlashes;
+    private SpriteRenderer spriteRend;
+
     private void Awake()
     {
         currentHealth = startingHealth;
         anim = GetComponent<Animator>();
+        spriteRend = GetComponent
         rb = GetComponent<Rigidbody2D>();
     }
 
