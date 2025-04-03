@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1748427183134239864}
   - component: {fileID: 1748427183134239871}
   - component: {fileID: 1748427183134239868}
+  - component: {fileID: 6648579499219071489}
   m_Layer: 10
   m_Name: Obstacle (Small Platforms)
   m_TagString: Untagged
@@ -350,3 +351,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0.12
+--- !u!95 &6648579499219071489
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748427183134239866}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bd9049315625e39498e67be3c2c565a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
