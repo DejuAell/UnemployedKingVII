@@ -14,7 +14,7 @@ public class PlayerRespawn : MonoBehaviour
     public void Respawn()
     {
         transform.position = currentCheckPoint.position; //Move player to last checkpoint position
-        playerHealth.Respawn(); //Restore player health and restore animations
+       // playerHealth.Respawn(); //Restore player health and restore animations
 
         //Move camera to checkpoint (for ts to w*rk we need to place it as child of the room)
     }
