@@ -88,14 +88,6 @@ public class Health : MonoBehaviour
         isInvulnerable = false;
 
 
-    //if(!dead)
-            //{
-            //anim.SetTrigger("Die");
-            //GetComponent<PlayerMovement>().enabled = false;
-            //rb.velocity = Vector2.zero;
-            //rb.constraints = RigidbodyConstraints2D.FreezeAll;
-
-            //dead = true;
-            //}
+    
  }
 }
