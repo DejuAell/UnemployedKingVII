@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyBehaviour: {fileID: 1836984191350406894}
-  damage: 0.5
+  damage: 0.12
 --- !u!1 &1836984191350406901
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,7 +357,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836984191644331997}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.075, y: 0.044, z: -0.008380923}
+  m_LocalPosition: {x: 0.009, y: -0.071, z: -0.008380923}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
